@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">玩Android</string>
+
+
+    <!--iconfont字体图标-->
+    <string name="tab_left">&#xe620; </string> <!--左对齐-->
+    <string name="tab_right">&#xe618; </string> <!--右对齐-->
+    <string name="ic_hot">&#xe66d; </string> <!--火-->
+    <string name="ic_return">&#xe6e5; </string> <!--返回-->
+    <string name="ic_share">&#xe66c; </string> <!--分享-->
+    <string name="ic_search">&#xe6a8; </string> <!--搜索-->
+    <string name="ic_collect_nor">&#xe63c; </string> <!--未收藏-->
+    <string name="ic_collect_sel">&#xe63b; </string> <!--已收藏-->
+    <string name="ic_about">&#xe7ca; </string> <!--关于-->
+    <string name="ic_close">&#xe80b; </string> <!--关闭的叉-->
+    <string name="ic_home">&#xe611; </string> <!--首页-->
+    <string name="ic_type">&#xe654; </string> <!--分类-->
+    <string name="ic_user">&#xe652; </string> <!--用户-->
+    <string name="ic_more">&#xe62b; </string> <!--更多-->
+
+
+    //
+    <string name="action_share">分享</string>
+    <string name="copy_link">复制链接</string>
+    <string name="copy_link_success">已复制链接</string>
+
+
+    <string name="about_me_tip">
+        项目所用到的接口为鸿洋大神建立的玩安卓网站提供： www.wanandroid.com. \n\n
+        本项目源码地址为 https://github.com/luqinmao/TomatoIt. \n\n 哈哈，如果觉得可以的话给个start吧！\n\n
+        项目主要技术框架技术： \n\n okgo+ rxjava+mvp
+    </string>
+
+</resources>

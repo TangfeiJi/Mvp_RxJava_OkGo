@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+      xmlns:android="http://schemas.android.com/apk/res/android"
+      android:layout_width="match_parent"
+      android:layout_height="@dimen/topbar_height"
+      android:orientation="horizontal"
+      android:gravity="center_vertical"
+      android:background="@color/colorPrimary"
+      android:id="@+id/rl_topbar_layout"
+    >
+
+    <com.lqm.tomatoit.widget.IconFontTextView
+        android:id="@+id/tv_return"
+        android:layout_width="@dimen/topbar_icon_width_height"
+        android:layout_height="match_parent"
+        android:textSize="@dimen/top_icon_size"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:text="@string/ic_return"
+        android:layout_marginLeft="5px"
+        />
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="120px"
+        android:layout_marginRight="120px"
+        android:maxLines="1"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_big_size"
+        />
+
+    <com.lqm.tomatoit.widget.IconFontTextView
+        android:id="@+id/tv_other"
+        android:layout_width="@dimen/topbar_icon_width_height"
+        android:layout_height="match_parent"
+        android:textSize="55px"
+        android:text="@string/ic_share"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:layout_alignParentRight="true"
+        android:visibility="gone"
+        />
+    <View
+        style="@style/lineStyle"
+        android:layout_alignParentBottom="true"
+        />
+
+</RelativeLayout>
